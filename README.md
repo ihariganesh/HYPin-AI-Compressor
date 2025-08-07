@@ -1,15 +1,6 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
 # HYPin Compress - Advanced Media Compression Web App
 
-A powerful, futuristic web application for compressing images, PDFs, and videos with AI-powered algorithms and stunning cyberpunk aesthetics.
+A powerful AI-powered web application for compressing all your media files including images, PDFs, and videos with elegant design and advanced compression algorithms.
 
 ## ✨ Features
 
@@ -25,15 +16,15 @@ A powerful, futuristic web application for compressing images, PDFs, and videos 
 
 ## 🎨 Design
 
-- **Cyberpunk Aesthetic**: Neon colors, glassmorphism effects, and futuristic animations
+- **Elegant Aesthetics**: Modern slate design with subtle animations and glassmorphism effects
 - **Responsive Design**: Works seamlessly across desktop, tablet, and mobile devices
 - **Smooth Animations**: Powered by Framer Motion for fluid user interactions
-- **Dark Theme**: Easy on the eyes with gradient backgrounds and neon accents
+- **Dark Theme**: Elegant dark design with gradient backgrounds and modern color palette
 
 ## 🚀 Technology Stack
 
 - **Frontend**: React 18 + TypeScript + Vite
-- **Styling**: TailwindCSS with custom cyberpunk theme
+- **Styling**: TailwindCSS with elegant slate theme
 - **Animations**: Framer Motion
 - **Image Compression**: browser-image-compression
 - **PDF Processing**: pdf-lib
@@ -177,3 +168,7 @@ export default tseslint.config([
   },
 ]);
 ```
+
+## 📖 About HYPin AI Compressor
+
+This repository contains a powerful AI-enhanced program that helps compress all your media files including images, PDFs, and videos with intelligent optimization algorithms and an intuitive user interface.
