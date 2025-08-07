@@ -13,6 +13,7 @@
     "@ffmpeg/ffmpeg": "^0.12.15",
     "@ffmpeg/util": "^0.12.2",
     "@types/file-saver": "^2.0.7",
+    "@vercel/analytics": "^1.5.0",
     "browser-image-compression": "^2.0.2",
     "ffmpeg.js": "^4.2.9003",
     "file-saver": "^2.0.5",

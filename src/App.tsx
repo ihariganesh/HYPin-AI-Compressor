@@ -22,17 +22,25 @@ function App() {
   const [processor] = useState(() => new FileProcessor());
 
   useEffect(() => {
-    const completedCount = files.filter(f => f.status === 'completed').length;
-    const processingCount = files.filter(f => f.status === 'processing').length;
-    
+    const completedCount = files.filter((f) => f.status === "completed").length;
+    const processingCount = files.filter(
+      (f) => f.status === "processing"
+    ).length;
+
     if (processingCount > 0) {
-      document.title = `⚙️ Processing ${processingCount} file${processingCount !== 1 ? 's' : ''} - HYPin Compress`;
+      document.title = `⚙️ Processing ${processingCount} file${
+        processingCount !== 1 ? "s" : ""
+      } - HYPin Compress`;
     } else if (completedCount > 0) {
-      document.title = `✅ ${completedCount} file${completedCount !== 1 ? 's' : ''} compressed - HYPin Compress`;
+      document.title = `✅ ${completedCount} file${
+        completedCount !== 1 ? "s" : ""
+      } compressed - HYPin Compress`;
     } else if (files.length > 0) {
-      document.title = `📁 ${files.length} file${files.length !== 1 ? 's' : ''} ready - HYPin Compress`;
+      document.title = `📁 ${files.length} file${
+        files.length !== 1 ? "s" : ""
+      } ready - HYPin Compress`;
     } else {
-      document.title = 'HYPin Compress - Advanced Media Compression';
+      document.title = "HYPin Compress - Advanced Media Compression";
     }
   }, [files]);
 
@@ -222,7 +230,9 @@ function App() {
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-16">
         <div className="text-center">
-          <h1 className="text-4xl font-bold gradient-text mb-8">HYPin Compress</h1>
+          <h1 className="text-4xl font-bold gradient-text mb-8">
+            HYPin Compress
+          </h1>
           <p className="text-xl text-slate-400">
             Advanced Media Compression with AI-Powered Optimization
           </p>
